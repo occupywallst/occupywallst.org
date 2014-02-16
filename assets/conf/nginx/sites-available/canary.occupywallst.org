@@ -1,0 +1,20 @@
+# -*-conf-*-
+
+server {
+  listen 127.0.0.1:6002 default_server;
+  listen 108.61.60.146:80;
+  listen [2001:19f0:aa08::dead:beef:cafe]:80;
+  server_name canary.occupywallst.org *.canary.ows.vixentele.com;
+  access_log off;
+  error_log /var/log/nginx/canary.occupywallst.org.error.log error;
+  error_page 404 /404.html;
+
+  include /etc/nginx/conf.d/pagespeed.inc;
+  pagespeed MapOriginDomain 127.0.0.1:6002 canary.occupywallst.org;
+  pagespeed LoadFromFile "canary.occupywallst.org"
+                         "/home/nginx/occupywallst.org";
+
+  location / {
+    root /home/nginx/occupywallst.org;
+  }
+}

@@ -1,0 +1,30 @@
+# Last Modified: Sat Feb 15 13:28:22 2014
+#include <tunables/global>
+
+/usr/local/nginx/sbin/nginx {
+  #include <abstractions/base>
+  #include <abstractions/nameservice>
+  #include <abstractions/openssl>
+  #include <abstractions/user-tmp>
+
+  capability dac_override,
+  capability setgid,
+  capability setuid,
+  capability mknod,
+
+  /etc/nginx/** r,
+  owner /etc/ssl/** r,
+  /home/nginx/** r,
+  /home/ows/ows/occupywallst/occupywallst/media/** r,
+  /run/nginx.pid rw,
+  /usr/local/nginx/conf/** r,
+  /usr/local/nginx/html/** r,
+  /usr/local/nginx/logs/** rw,
+  owner /usr/local/nginx/proxy_temp/** rw,
+  /usr/local/nginx/sbin/nginx mr,
+  /var/cache/nginx/** rw,
+  /var/cache/pagespeed/** rwlk,
+  /var/log/pagespeed/** rw,
+  /var/log/nginx/* w,
+  /var/run/nginx.pid rw,
+}
