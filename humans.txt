@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Micah White -- Visionary -- @LeaderlessRevolt
+    Justine Tunney -- Engineer -- @JustineTunney
+    Priscilla Grim -- Media -- @grimwomyn
+
+# THANKS
+
+    Commodore Grace Hopper
+
+# TECHNOLOGY COLOPHON
+
+    HTML5
+    CSS3
+    Jekyll
+    Git
+    Django
+    PostgreSQL
+    Linux

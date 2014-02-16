@@ -1,0 +1,19 @@
+name: Occupy Wall Street
+host: www.occupywallst.org
+url: http://www.occupywallst.org
+favicon: /assets/img/tome.png
+author:
+  name: Occupy Wall Street
+  email: support@occupywallst.org
+analytics:
+  code: UA-46982122-1
+
+# Jekyll Settings
+timezone: America/New_York
+encoding: UTF-8
+permalink: none
+pygments: true
+markdown: redcarpet
+exclude: [assets, Makefile]
+redcarpet:
+  extensions: [superscript, space_after_headers, strikethrough, footnotes]

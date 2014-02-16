@@ -1,0 +1,58 @@
+/** Default font of Arial in keeping with St.org tradition. */
+html {
+  font-family: Arial, sans-serif;
+}
+
+/** Quant is a proprietary serif font with vintage features. */
+article {
+  font-family: Quant, serif;
+}
+
+/** Source Code Pro is a free fixed-width font from Adobe for programming. */
+code,
+kbd,
+pre,
+samp {
+  font-family: "Source Code Pro", monospace;
+}
+
+/**
+ * Enable vintage type features like ligatures and old numbers.
+ *
+ * @see "http://www.myfonts.com/fonts/hoftype/quant/"
+ * @see "http://www.microsoft.com/typography/otspec/featurelist.htm"
+ * @see "http://typofonderie.com/font-support/opentype-features/"
+ * @see "https://code.google.com/p/sfntly/"
+ */
+html {
+  font-feature-settings:         "liga", "dlig", "clig", "hlig", "lnum", "onum", "pnum", "salt", "swsh";
+  -webkit-font-feature-settings: "liga", "dlig", "clig", "hlig", "lnum", "onum", "pnum", "salt", "swsh";
+  -moz-font-feature-settings:    "liga=1, dlig=1, clig=1, hlig=1, lnum=1, onum=1, pnum=1, salt=1, swsh=1";
+}
+
+/* This makes fonts look nicer on my MacBook. */
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+sup {
+  vertical-align: none;
+  font-feature-settings: "sups";
+  -webkit-font-feature-settings: "sups";
+  -moz-font-feature-settings: "sups=1";
+}
+
+sub {
+  vertical-align: none;
+  font-feature-settings: "subs";
+  -webkit-font-feature-settings: "subs";
+  -moz-font-feature-settings: "subs=1";
+}
+
+.smallcaps {
+  font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  -moz-font-feature-settings: "smcp=1";
+  letter-spacing: .1em;
+}

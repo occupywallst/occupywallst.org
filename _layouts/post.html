@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+<article lang="{{ page.lang }}">
+  <header>
+    <hgroup>
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      {% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
+      <h3><time pubdate datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date:"%B %d, %Y" }}</time></h3>
+    </hgroup>
+  </header>
+  {{ content }}
+  <footer>
+    <p class="smallcaps" style="text-align: right">
+      &mdash;
+      <a rel="author" href="/{{ page.author }}.html">
+        {{ author.name }}</a> ❧
+      <time datetime="{{ page.date | date:"%Y" }}">
+        {{ page.date | date:"%Y" }}</time>
+      </cite>
+    {{ author.bio | markdownify }}
+  </footer>
+</article>
+{% include comments.html %}

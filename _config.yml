@@ -1,0 +1,27 @@
+analytics: UA-46982122-1
+author:
+  email: support@occupywallst.org
+  name: Occupy Wall Street
+canonical: http://www.occupywallst.org
+disqus: occupywallst
+host: www.occupywallst.org
+lang: en
+name: Occupy Wall Street
+
+# Jekyll Settings
+encoding: UTF-8
+excerpt_separator: "\n\n"
+exclude:
+  - Makefile
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - footnotes
+    - smart
+    - space_after_headers
+    - space_after_headers
+    - strikethrough
+    - superscript
+permalink: none
+pygments: true
+timezone: America/New_York

@@ -1,0 +1,108 @@
+---
+author: justine
+date: 2013-08-29T12:00:00-5000
+lang: en
+layout: post
+title: Can we protest the animal holocaust on S17 instead of TPP?
+---
+
+It has recently come to my attention that 50 billion land animals (and probably
+another 90 billion sea animals) are murdered by humans each year for food
+([source][kill-count]). How could I not have noticed this sooner? To think that
+all these years I’ve been fighting to “get money out of politics” and “bring
+back the middle class” while the most prolific outbreak of mass murder in human
+history has been happening right beneath my nose! I feel ashamed.
+
+I hate to say it, but **we’re going to have to put fighting Wall Street on the
+back-burner** for a little while. At least until we’ve made some progress in
+stopping the animal genocide.
+
+I started a centi-thread on OccupyWallSt.org about this issue three weeks ago,
+so this topic is already being debated within the movement:
+<http://occupywallst.org/forum/the-goal-of-occupy-should-be-to-end-violence-again/>
+*(BTW I love how the forum I coded from scratch while living in a park is still
+a thriving community to this day. You guys should really hang out there more
+often.)*
+
+In times like these, I feel it’s a strategic error to focus our efforts on the
+issues of abstract economic reform like stopping TPP or reinstating
+Glass-Steagall. No one understands that shit. And even if we were 100%
+effective in executing our agenda and our opinions on the issue turned out to
+be correct and didn’t do more harm than good, the best case scenario is that
+we’ll help a few million or so going through tough times financially over the
+coming decades. Helping millions may seem noble, but I’d call it’s petty
+compared to the trillions being murdered and ignored. **The animal genocide is
+the most important issue of our time.** History has granted us an opportunity
+to stand up and fight for what’s right. We must decide if we want to be looked
+back upon favorably by our grandchildren, or become their source of shame. So
+today, I’ve officially thrown down the wedge: Which side are you on, boys?
+
+If we accept the discoveries of science that human beings are animals like any
+other, and we freely choose to accept the opinion that life has value,
+happiness should be attainable, suffering should not be inflicted unless
+necessary, and justice comes from ensuring these concepts apply to the greatest
+number possible—then one must conclude that no issue is more important than
+ending the animal holocaust. **In 2003 alone, casualties were 3.4 orders of a
+magnitude higher than all the deaths in WWII put together.**
+(`3.4≈log(150e9/60e6)`, [source][ww2-deaths]) I apologize for using engineering
+notation, but the scale of these atrocities creates numbers so large that they
+simply can’t be expressed any other way. The fact is that if we don’t act now,
+the derivative of dead bodies will only continue to rise over time as the
+third-world modernizes and their emerging middle classes begin demanding the
+western luxuries we take for granted that are predicated on suffering. The
+capitalists will continue building factory farms to meet demand because they
+have no conscience. They’ll keep growing and killing until eventually the whole
+planet becomes a slaughterhouse and then they too shall meet their demise. *Red
+ink flows like a river of blood.*
+
+Perhaps Occupy’s tragic flaw has always been our own selfishness. Always caring
+about the middle class, sitting around in a park eating animal flesh fresh from
+the local pizzeria. The only thing we wondered about was who paid for the
+pizza; no one asked who died for it.
+
+![Meme with cow / unterlumpenproletariat / the lowest class of society whose sole posession of significant material value is their ability to die](//i.imgur.com/BuvyZId.jpg)
+
+I bring you these revelations at great personal risk to mine activist
+career. The topic of animal liberation is so taboo that I’m breaking the
+unspoken rules of social propriety by even bringing it up! I expect some of you
+will label me divisive or a troll. But in doing so you’ve only affirmed mine
+ability to rouse your cognitive dissonance. The only thing you have to lose is
+your ignorance, so expect no pity from me.
+
+But what what infuriates me the most is when people try to defend the meat
+industry. If you write a reply disagreeing with me, I’d be appreciative if you
+could explain which of the stated premises you disagree with, or at least own
+up to the fact that you’ve sacrificed consistency for the sake of lifestyle
+because you haven’t got the heart for care for these poor animals. Just please,
+don’t try to rationalize what you’re doing. We both know it’s wrong.
+
+To give you an example of this behavior, I saw an
+[anarchist documentary][hold-fast] once where they filmed this poor little
+fishy—who never hurt anyone and just wanted to swim and be happy—being plucked
+from its home in the sea only to be beaten to death with a wooden club. An
+entire lifetime gone, just so some humans could experience a fleeting moment of
+“tasty” sustenance. Moxie chose to leave this scene unedited, forcing us to
+watch the murder in its full lengthy glory. But what saddens me the most is
+that as I sat there cringing, I looked upon the transfixed faces of my friends
+who unlike me were not perturbed by such brutish behavior. The eyes glazed over
+as the countenance bore a chilling sense of serenity, like the uncaring
+psychopath who hungers for a meal. But these are just normal people who support
+progressive causes and care deeply about social/economic justice. But somehow
+they have this magical ability to flip a switch that makes them not care about
+animals.
+
+As for the nature argument: I say that everything we do is natural, which means
+nothing is natural. If it could be said that we as humans have any nature at
+all, it would be the ability to choose. This means:
+
+1. We can *choose* to get our calories from a source that doesn’t require suffering.
+2. We can *choose* to shut down the factory farms, using force if necessary.
+3. We can *choose* to build a new culture that doesn’t require an unterlumpenproletariat class whose sole possession of significant material value is their ability to die.
+4. We can *choose* to engineer clever harm-free substitutes like [synthetic beef][frankenmeat].
+
+With choice comes responsibility. Now I know you’re all very responsible people, so I have no doubt you’ll all choose wisely.
+
+[frankenmeat]: http://www.theguardian.com/science/2013/aug/05/google-sergey-brin-synthetic-beef-hamburger
+[hold-fast]: http://vimeo.com/15351476
+[kill-count]: http://actionforanimalskansas.blogspot.com/2008/11/animal-kill-counter.html
+[ww2-deaths]: http://en.wikipedia.org/wiki/World_War_II_casualties

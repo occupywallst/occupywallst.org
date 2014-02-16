@@ -1,0 +1,234 @@
+---
+author: justine
+date: 2014-01-02T12:46:00-5000
+lang: en
+layout: post
+title: An Open Letter to Mister Justin Wedes
+---
+
+Dear Mr. Wedes---Do you remember how you said at my apartment the other day
+that the users of Facebook are the ones who create all the value?
+
+This is a very problematic argument to make because it dismisses the labour of
+software engineers such as myself. Tread carefully if you go there, because
+you'll be treading on my pride as a worker.
+
+In the 19^th century when the socialists said that workers created all the
+value, they were right. Let's say you've got a factory that makes doorknobs. It
+takes a fixed amount of material resources and human labour to create each
+doorknob. Once the shareholders fund the creation of the business buying the
+initial supplies and an engineer/inventor for a design, the workers do
+everything else. Workers make the actual doorknob from beginning to end. The
+shareholders hold the whip to extract surplus value forevermore. Then each
+doorknob gets sold and a family uses it for maybe 50-100 years.
+
+In the "new economy", things are different! The same 19^th century logic no
+longer applies. Today you'll have a couple software engineers who require no
+startup capital other than what's needed to pay their rent and ramen. They
+invent, design, and produce all in one fell swoop. Then they have a product
+that can be used by the whole of humanity forevermore. The software engineers
+don't technically have to do anything once the software is built. The fixed
+labour then only depends on system administrators to run the service. So
+they're probably most closely analogous to the "workers" of the 19^th century
+when you look at the new economy. (But even system administrators are starting
+to go away now thanks to the automation benefits of cloud hosting platforms
+like App Engine and Google Apps.) So the product is built once, and everyday
+people just use it. People keep using it over and over again. That's it. Just
+like the doorknob.
+
+So if you say that the "users of facebook" create all the value in this
+21<sup>st</sup> century economy... that's sort of like saying that people who
+lived in houses created doorknobs in the 19<sup>th</sup> century. It just
+doesn't make any sense.
+
+Part of the social contract for using Facebook is that they reserve the right
+to put ads on the righthand side in order to pay for the system administrator
+salaries and buy hardware to keep the service running. But they've raised so
+much capital and expropriated so much ad money, that they kept the software
+engineers on as full-time workers who continually improve the software and
+automate more and more. They became so good at it that they ended up getting
+filthy rich. Why? Because they're creating products that are awesome and people
+want to use them.
+
+It's a nonviolent revolution. Facebook didn't come into our communities with
+guns telling us that we have to work for them all day. It's much more like
+Aldous Huxley's Brave New World in the sense that they created a product we
+genuinely crave and want to use. Something that makes life better.
+
+So if Facebook is making your life better, why would you care if some geeks on
+the other side of the country are making a lot of money as a result? Why is it
+wrong that they have a bunch of dollars? They never hurt anyone. They just give
+away a cool product for free and somehow figured out a way to get rich doing
+it.
+
+So I beseech you to reconsider your plans to demand a cut of that money. I
+think you've mistakenly used old theory in a new age where it no longer applies
+in a rational manner. I'm telling you as a friend, as a communist, and as a
+software engineer that if you demand Facebook give free money to all its
+users—you will absolutely *infuriate* tech workers. Like this is even worse
+than what right-wingers would call "entitled whining", this is downright
+*avaricious*.
+
+![Photograph of Justin Wedes](//i.imgur.com/38fCWCe.jpg)
+
+Now I understand that many people argue that content creators ought to be
+entitled to compensation or royalties when sharing their content on
+Facebook. That argument may *seem* reasonable. After all, Google gives us a cut
+of the ads on our YouTube videos. Everyone wants to be like Psy, who I'm sure
+got quite wealthy off his Gangnam Style hit video.
+
+But this logic doesn't apply to Facebook, which is a community. It's not a tv
+channel like YouTube. Most content is just links to other websites.
+
+For example, if I were to post a link to The Huffington Post and it goes viral,
+tens of thousands of Facebook users will visit The Huffington Post's website
+and see ads. The ad provider would then give money to The Huffington Post in
+exchange for your eyeballs. THEREFORE I believe it could be reasonably
+argued—within the context of a liberal capitalist framework—that The Huffington
+Post ought to be paying royalties to Facebook!  Also why isn't The Huffington
+Post paying royalties to us? Liberals just sit around and share links to that
+site all day. Don't they deserve a cut too?
+
+It's also important to take note of the fact that unlike YouTube, there is no
+clear way to correlate Facebook's ad revenue to the content submitted by
+individual users. When browsing Facebook at any given moment, there'll be like
+fifty pieces of content from fifty different individuals. It's a giant collage
+of STUFF. Ads *just happen* to appear on the side.
+
+So it would be nearly impossible to pay Facebook users based on the quality of
+the content they produce. for example, you couldn't say, "oh Rebecca's status
+update about her boyfriend caused a bunch of people to click on an ad from
+modcloth and buy $2000 worth of merchandise, so we're going to give Rebecca a
+cheque for $50 as her share of the sales. You absolutely cannot do that.
+
+So the option is to give Facebook users money based on how much time they spend
+on the site. Chances are it'll be like a few cents an hour. But that's beneath
+minimum wage so using Facebook would become illegal and you lose.
+
+So the only remaining option is to pay out dividends to every single American.
+That cheque will probably amount to $15/year or some hilariously small amount.
+This is basic economics. When a pie gets divided between three hundred
+*million* people, each piece is going to turn out rather small. Everyone gets
+enough money to buy a subscription to The Economist.
+
+Except now—since you've decided to only pay dividends to Americans—you've
+implemented a nationalistic policy which marginalizes the other seven billion
+humans and you lose again. Kids in Africa use Facebook too! It's an
+international product.
+
+So what do we get when we divide the yearly profits eight billion times? No
+more Facebook, because the logistics alone of distributing that many pennies
+would bankrupt the company.
+
+Giving people free money is quite problematic; because it'll just be a handout
+to the private sector. Let's say you wanted to end poverty in Brooklyn, so you
+handed a cheque for $10,000 to every man and woman so they could buy rent and
+food for the next 12 months. I guarantee you that for 90% of those people, that
+money is going straight into the pockets of the check cashers, bars, clubs,
+drug dealers, and casinos.
+
+Now IF YOU'RE LUCKY and people use the money for what they *should*, then it
+goes in the pockets of the slumlords and fast food restaurants.
+
+So you see, handing out free money doesn't actually solve any problems! You
+need to get yourself out of the liberal mindset.  Engineering the economy is an
+indirect approach to change and it doesn't always work very well. Why solve a
+problem by guiding the slippery invisible hand, when we can just solve the
+problem?
+
+So rather than demanding money, my personal recommendation (as I said when we
+met earlier) is to promote a happy positive message where you beseech the tech
+industry to provide the material necessities of human survival. Extra points if
+you gently poke fun at their internal contradiction, which is that they just
+want more blood for the blood god. (By 'blood' I mean ‘knowledge’; and by ‘god’
+I allude to the burgeoning superintelligence.)
+
+That's what we actually needed all along! We need *digified* housing,
+cafeterias to serve food, bicycles to get around, and medicine to keep us
+healthy. That's it.
+
+Our current capitalist system *fails so hard* at providing these simple
+things. And it's so funny watching liberals try to solve it. For the past fifty
+years, neoliberals and the New Left have been playing hocus pocus with the
+markets. MEANWHILE: Our infrastructure has crumbled and the finance industry
+now owns all the land. We don't let people go to the doctor when they get
+cancer! And if you try to sleep in a park, the cops will beat the shit out of
+you. I know these things for a FACT, because they both happened to me.
+
+But the U.S. Regime isn't *just* incompitent—they can't even keep themselves
+running! The recent government shutdown truly illuminated the fact that this
+tyrannical regime is *clearly* in its death throes. I say let it die!
+
+So rather than continuing to take the social democracy approach of propping up
+the current shitty system, let's start setting higher standards. Rather than
+helping people make their unbelievably insanely expensive rents for their
+blighted dilapidated crumb factories, how about we build the best fucking
+housing imaginable with modern engineering? How about we strive for
+greatness. Do something that's actually exciting and makes life beautiful.
+
+It'll be cheaper too. Like I honestly believe with modern technology, we can
+provide the basic necessities of human survival to each and every individual
+who will choose to accept them. That's much better than the current system
+which is basically: become a wage slave married to corporation (if you're
+lucky), wear a suit &amp; tie, and work all day—*or die!*
+
+I think together we can appeal to the tech industry's better nature and
+convince them to provide for material needs. rather than handing out free
+money, I think they'll respond if we ask them to end human suffering. I think
+the tech industry engineers are the greatest problem solvers in human
+history. I think that if we let them, they'd be able to design and build new
+cities from the ground up—from scratch—that are highly efficient,
+breathtakingly beautiful, and sustainable.
+
+To be honest, I don't think the tech industry will have a choice! It's likely
+that they'll automate probably 90% of the workforce in the next 20 years. So if
+no one has jobs, no one will be able to sit around and hangout on Facebook all
+day. I hope my point is becoming clearer now.
+
+This is the ultimate and most tragic contradiction of the tech industry. It's
+making all the people it depends on to generate knowledge for the knowledge
+graph—it's making them obsolete. When workers become obsolete, capitalism sends
+them "out to pasture". So the only solution to this contradiction is to
+overthrow capitalism. Otherwise this ancient and barbaric system of economics
+will kill us all.
+
+I partially blame the foolish keynesian economists, who seem to think the best
+way to run an economy is by forcing everyone to be a busy little worker bee so
+they can have lots of money to buy lots of things. It's an incredibly naïve
+point of view since the necessity of work is becoming obsolete. The entire
+strategy liberal economists use to incentivize labour is *killing* our society.
+
+This system is tyrannical and oppressive. It grants us no security and forces
+us to constantly struggle to sell ourselves survive. It forces every single man
+woman and child to be an expert in finance and law... just to live life as they
+please! The longer we make money a prerequisite for basic human survival, the
+longer we will struggle and be exploited.
+
+I'm not even anti-money. I just want to see the cruelty end. I don't care if
+some people are a little richer and have luxury goods, so long as the material
+necessities for everyone else are being met without the constant fear of losing
+everything. If we can just take care of the bare minimum things you need to
+live a prosperous life without having to participate in markets, then as far as
+I'm concerned, people who *are* actually interested in money can go
+wild. Because then it's all just luxury and fun.
+
+You see, the way you use money *properly* is sort of like how I fuck around
+with the Bitcoin market. I trade bitcoins on Mt.Gox regularly as a high-latency
+market maker. My net worth shifts by tens of thousands of dollars each day. But
+I'm rich so it's all fun money to me. I'm not emotionally invested. I know if I
+lose my fun money, I'm still going to have a roof over my head. That's what
+allows me to be rational and earn more pretend money. But if I were poor,
+under-educated, and struggling... there would be no way I'd be able to trade on
+Mt.Gox rationally! I'd panic, lose my cool, and get owned by the spread.
+
+That's why I hate capitalism. Because I understand *just enough* about finance
+to realize that it's all just a game for people who are interested in
+finance. That's it.
+
+Most people aren't interested in finance. Some people like art. Some people
+like computers. Some people like basket weaving. Whatever! They should be able
+to live freely. They should be able to *do as they please* without having to
+become a capitalist. But this tyrannical system would rather see them starve,
+just for being themselves.
+
+Capitalism = conformity. It's the enemy of diversity and the bane of freedom.

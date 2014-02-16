@@ -1,0 +1,23 @@
+/**
+ * OccupyWallSt.org HTML Header Styles
+ *
+ * <p>These sizes are calculated with precision. Please
+ * do not change them.
+ *
+ * @see "http://lamb.cc/typograph/"
+ */
+
+h1 {
+  font-size: 3em;
+  margin: 1.5em 0;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin: 1.82143em 0;
+}
+
+h3 {
+  font-size: 1.33333em;
+  margin: 1.5em 0;
+}

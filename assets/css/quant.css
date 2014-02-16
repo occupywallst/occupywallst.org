@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Quant;
+  src: url("/assets/font/QuantTextRegWeb.eot?#iefix") format('embedded-opentype'),
+       url("/assets/font/QuantTextRegWeb.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Quant;
+  src: url("/assets/font/QuantTextBolWeb.eot?#iefix") format('embedded-opentype'),
+       url("/assets/font/QuantTextBolWeb.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Quant;
+  src: url("/assets/font/QuantTextItaWeb.eot?#iefix") format('embedded-opentype'),
+       url("/assets/font/QuantTextItaWeb.woff") format("woff");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Quant;
+  src: url("/assets/font/QuantTextBolItaWeb.eot?#iefix") format('embedded-opentype'),
+       url("/assets/font/QuantTextBolItaWeb.woff") format("woff");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Quant;
+  src: url("/assets/font/QuantTextLigWeb.eot?#iefix") format('embedded-opentype'),
+       url("/assets/font/QuantTextLigWeb.woff") format("woff");
+  font-style: normal;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: Quant;
+  src: url("/assets/font/QuantTextLigItaWeb.eot?#iefix") format('embedded-opentype'),
+       url("/assets/font/QuantTextLigItaWeb.woff") format("woff");
+  font-style: italic;
+  font-weight: lighter;
+}

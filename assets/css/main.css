@@ -1,0 +1,44 @@
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  color: #333;
+}
+
+article {
+  margin: 0 auto;
+  height: 100%;
+}
+
+a,
+a:visited {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** Hyperlinks that should appear as normal text. */
+h1 a,
+h2 a,
+cite a,
+a[rel=author] {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+acronym {
+  border-bottom: 1px dotted #999;
+}
+
+article {
+  margin: 0 9em 9em 4.5em;
+}
+
+article img {
+  max-width: 100%;
+}

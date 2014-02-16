@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="/assets/img/bull128.png">
+<link rel="canonical" href="{{ site.canonical }}{{ page.url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="/atom.xml">
+<title>{{ page.title }}</title>
+<meta property="og:site_name" content="{{ site.name }}">
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+<link rel="stylesheet" href="/assets/css/quant.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/font.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/article.css">
+<link rel="stylesheet" href="/assets/css/headers.css">
+<link rel="stylesheet" href="/assets/css/classes.css">
+<!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<header lang="{{ site.lang }}">
+  <hgroup>
+    <h1 id="brand">
+      <img alt="[Raised Fist]" src="/assets/img/fist.png"
+           width="59" height="94">
+      <a href="/"><span>Occupy</span>WallStreet</a></h1>
+    <h2>An Open Source Social Movement</h2>
+  </hgroup>
+</header>
+{{ content }}
+<footer lang="en">
+  <h2><a rel="start" href="{{ site.url }}">{{ site.name }}</a></h2>
+</footer>
+{% include analytics.html %}
