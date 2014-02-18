@@ -1,26 +1,48 @@
 ---
 layout: default
 ---
+<!--
+  -- OccupyWallSt.org News Article Design
+  -- @author Justine Tunney <justine@occupywallst.org>
+  -->
+
 {% assign author = site.data.authors[page.author] %}
-<article lang="{{ page.lang }}">
-  <header>
-    <hgroup>
+
+<div class="mainbar justify">
+  <article lang="{{ page.lang }}">
+    <header>
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      {% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
-      <h3><time pubdate datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date:"%B %d, %Y" }}</time></h3>
-    </hgroup>
-  </header>
-  {{ content }}
-  <footer>
-    <p class="smallcaps" style="text-align: right">
-      &mdash;
-      <a rel="author" href="/{{ page.author }}.html">
-        {{ author.name }}</a> ❧
-      <time datetime="{{ page.date | date:"%Y" }}">
-        {{ page.date | date:"%Y" }}</time>
-      </cite>
-    {{ author.bio | markdownify }}
-  </footer>
-</article>
-{% include comments.html %}
+      {% if page.subtitle %}
+        <h2>{{ page.subtitle }}</h2>
+      {% endif %}
+      {% include share.html %}
+      <h3><a href="{{ site.canonical }}{{ page.url }}">
+          <time pubdate datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date:"%B %d, %Y" }}</time></a></h3>
+    </header>
+    {{ content }}
+    <footer class="right smallcaps pad">
+      <p>
+        &mdash;
+        <a rel="author" href="{{ author.url }}">
+          {{ author.name }}</a> ❧
+        <time datetime="{{ page.date | date:"%Y" }}">
+          {{ page.date | date:"%Y" }}</time>
+    </footer>
+    <aside class="round lborder doublepad">
+      <div class="social">
+        {% include social.html author=author %}
+      </div>
+      <div class="biography">
+        <h2>About the Author</h2>
+        {{ author.bio | markdownify }}
+      </div>
+      <div class="clear"></div>
+    </aside>
+  </article>
+  {% include comments.html %}
+</div>
+
+<div class="sidebar justify">
+  {% include sidebar.html %}
+</div>

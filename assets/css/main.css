@@ -1,12 +1,37 @@
-html {
-  font-size: 100%;
-  line-height: 1.5;
-  color: #333;
+/**
+ * OccupyWallSt.org Website Style
+ *
+ * @author Justine Tunney <justine@occupywallst.org>
+ */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-article {
-  margin: 0 auto;
-  height: 100%;
+html {
+  color: #333;
+  line-height: 1.33333;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+acronym {
+  border-bottom: 1px dotted #999;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-size: 0.9167em;
+}
+
+dt {
+  font-weight: bold;
 }
 
 a,
@@ -18,27 +43,180 @@ a {
   text-decoration: none;
 }
 
-/** Hyperlinks that should appear as normal text. */
+/** These hyperlinks should appear as normal text. */
 h1 a,
 h2 a,
+h3 a,
 cite a,
 a[rel=author] {
   text-decoration: none;
   color: inherit !important;
 }
 
-ol {
-  list-style-type: lower-roman;
+body > header {
+  background-image: linear-gradient(to top right, #f77823 0%, #fff 50%);
 }
 
-acronym {
-  border-bottom: 1px dotted #999;
+.revolution p {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1;
 }
 
-article {
-  margin: 0 9em 9em 4.5em;
+.branding {
+  padding: 1em 1em 0.5em 2em;
 }
 
-article img {
+.branding img {
+  float: left;
+  margin-right: 5px;
+}
+
+.branding h1 {
+  margin: 0;
+  color: black;
+  font-size: 3em;
+}
+
+.branding h2 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: -7px 0 0 69px;
+}
+
+.branding,
+.content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.mainbar {
+  float: left;
+  width: 593px;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+
+.sidebar {
+  width: 367px;
+  margin-left: 593px;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+
+.mainbar img,
+.sidebar img {
   max-width: 100%;
+}
+
+.bottombar {
+  line-height: 1.5em;
+  font-face: Arial, sans-serif;
+  padding: 1em 2em;
+  border-top: 1px solid #ddd;
+  background-image: linear-gradient(to top, #fcfcfc 95%, #ddd 100%);
+}
+
+.round {
+  border-radius: 1em;
+}
+
+.shadow {
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+  padding: 1px initial;
+}
+
+.shadow > * {
+  margin: 1em;
+}
+
+.lborder {
+  margin-left: -1em;
+  border-left: 0.5em solid #ddd;
+  padding-left: 0.5em;
+}
+
+.share {
+  vertical-align: middle;
+  margin: 1em 0;
+}
+
+.share > * {
+  display: table-cell;
+  float: right;
+  margin-left: 1em;
+}
+
+.social ul {
+  height: 32px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+.social li {
+  float: right;
+  display: inline;
+  margin: 0;
+  padding: 0 0 0 0.5em;
+}
+
+.social img {
+  opacity: 0.9;
+}
+
+.social img:hover {
+  opacity: 1;
+}
+
+.pad {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.doublepad {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.red {
+  color: #a00;
+}
+
+.justify p,
+.justify li {
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.center,
+.center p {
+  text-align: center !important;
+}
+
+.right,
+.right p {
+  text-align: right !important;
+}
+
+.lfloat {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.2em;
+}
+
+.rfloat {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 0.2em;
+}
+
+.clear {
+  clear: both;
 }

@@ -1,11 +1,17 @@
-/** Default font of Arial in keeping with St.org tradition. */
-html {
-  font-family: Arial, sans-serif;
-}
+/**
+ * OccupyWallSt.org Font Style
+ *
+ * @author Justine Tunney <justine@occupywallst.org>
+ */
 
 /** Quant is a proprietary serif font with vintage features. */
-article {
+html {
   font-family: Quant, serif;
+}
+
+/** Header font of Arial in keeping with St.org tradition. */
+body > header {
+  font-family: Arial, sans-serif;
 }
 
 /** Source Code Pro is a free fixed-width font from Adobe for programming. */

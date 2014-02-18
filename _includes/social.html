@@ -1,0 +1,51 @@
+<!--
+  -- OccupyWallSt.org Author Social Media Buttons
+  -- @author Justine Tunney <justine@occupywallst.org>
+  -->
+
+{% assign size = 32 %}
+
+<ul>
+  {% if author.social.tumblr %}
+    <li>
+      <a href="http://{{ author.social.tumblr }}.tumblr.com/"
+         rel="author" title="{{ author.firstname }}'s Tumblr Blog">
+        <img src="/assets/img/social/tumblr.png"
+             alt="Tumblr" width="{{ size }}" height="{{ size }}"></a>
+  {% endif %}
+  {% if author.social.linkedin %}
+    <li>
+      <a href="https://www.linkedin.com/in/{{ author.social.linkedin }}"
+         rel="author" title="{{ author.firstname }}'s LinkedIn Profile">
+        <img src="/assets/img/social/linkedin.png"
+             alt="LinkedIn" width="{{ size }}" height="{{ size }}"></a>
+  {% endif %}
+  {% if author.social.youtube %}
+    <li>
+      <a href="https://www.youtube.com/user/{{ author.social.youtube }}"
+         rel="author" title="{{ author.firstname }}'s YouTube Channel">
+        <img src="/assets/img/social/youtube.png"
+             alt="Youtube" width="{{ size }}" height="{{ size }}"></a>
+  {% endif %}
+  {% if author.social.googleplus %}
+    <li>
+      <a href="https://plus.google.com/{{ author.social.googleplus }}"
+         rel="author" title="{{ author.firstname }}'s Google+">
+        <img src="/assets/img/social/googleplus.png"
+             alt="Google+" width="{{ size }}" height="{{ size }}"></a>
+  {% endif %}
+  {% if author.social.facebook %}
+    <li>
+      <a href="https://www.facebook.com/{{ author.social.facebook }}"
+         rel="author" title="{{ author.firstname }}'s Facebook">
+        <img src="/assets/img/social/facebook.png"
+             alt="Facebook" width="{{ size }}" height="{{ size }}"></a>
+  {% endif %}
+  {% if author.social.twitter %}
+    <li>
+      <a href="https://twitter.com/{{ author.social.twitter }}"
+         rel="author" title="{{ author.firstname }}'s Twitter">
+        <img src="/assets/img/social/twitter.png"
+             alt="Twitter" width="{{ size }}" height="{{ size }}"></a>
+  {% endif %}
+</ul>

@@ -1,34 +1,36 @@
 justine:
   name: Justine Alexandra Roberts Tunney
+  firstname: Justine
   email: justine@occupywallst.org
-  photo: //i.imgur.com/JalVSdXm.jpg
-  links:
-    - text: \@JustineTunney
-      url: https://twitter.com/JustineTunney
-    - text: Blog
-      url: https://justinetunney.com/
-    - text: about.me
-      url: http://about.me/jtunney
-    - text: GitHub
-      url: https://github.com/jart
-    - text: LinkedIn
-      url: https://www.linkedin.com/in/jtunney
+  url: https://justinetunney.com/
+  social:
+    about: jtunney
+    github: jart
+    googleplus: JustineAlexandraRobertsTunney
+    linkedin: jtunney
+    reddit: jart
+    tumblr: justinetunney
+    twitter: JustineTunney
+    youtube: spectrefastasm
   bio: |
-    Justine is the co-founder of OSN, a Software Engineer at Google, and a
-    self-described "Champagne Tranarchist".
+    <img alt="Photo of Justine Tunney with sign Give Class War A Chance"
+         src="/assets/img/justine.jpg" width="206" height="288"
+         class="round rfloat">
+
+    Justine Tunney is the co-founder of OSN, a Software Engineer at Google, and
+    a self-described "Champagne Tranarchist".
 
     She wants to see a world revolution, starting with a popular uprising
     against the financial executives who plunder society without contributing
     any social utility. She hopes that her work will result in a friendlier and
     more compassionate society.
 
-    She has been profiled in [The Nation](breaking-up-with-occupy) by Nathan
-    Schneider, [The New Yorker](pre-occupied) by Mattathias Schwartz,
-    [BetaBeat](betabeat-militia) by Jessica Roy, and in [Written Off
-    America](occupy-eats-own) by Jerry Ashton.
+    She has been profiled in [The Nation][breaking-up-with-occupy] by Nathan
+    Schneider, [The New Yorker][pre-occupied] by Mattathias Schwartz,
+    [BetaBeat][betabeat-militia] by Jessica Roy, and in [Written Off
+    America][occupy-eats-own] by Jerry Ashton.
 
     [betabeat-militia]: http://betabeat.com/2013/09/googler-wants-to-kickstart-a-nonviolent-occupy-wall-street-militia/
     [breaking-up-with-occupy]: http://www.thenation.com/article/176142/breaking-occupy?page=full
     [occupy-eats-own]: writtenoffamerica.com/occupy-eats-its-own-over-an-iconic-poster/
     [pre-occupied]: http://www.newyorker.com/reporting/2011/11/28/111128fa_fact_schwartz?currentPage=all
-

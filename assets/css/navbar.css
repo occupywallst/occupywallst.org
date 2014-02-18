@@ -1,0 +1,70 @@
+/**
+ * OccupyWallSt.org Navigation Bar Style
+ *
+ * @author Justine Tunney <justine@occupywallst.org>
+ */
+
+.navbar {
+  background: #333;
+  background: linear-gradient(to top, #363636, #262626);
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.30);
+}
+
+.navbar ul {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0.90em;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+.navbar li:first-child {
+  margin-left: 2em;
+}
+
+.navbar li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid #666;
+  border-right: 1px solid #000;
+}
+
+.navbar li:first-child {
+  border-right: none;
+}
+
+.navbar li a {
+  line-height: 2;
+  display: block;
+  color: white;
+  text-shadow: -1px -1px 0px rgba(0,0,0,0.3);
+  text-decoration: none;
+  padding: 0.3em 1em;
+}
+
+.navbar li a:hover {
+  background: #900;
+  background: linear-gradient(to top, #a11, #900);
+}
+
+.navbar li.donate {
+  border: none;
+}
+
+.navbar li.donate a {
+  margin: -1px 0;
+  background: #c60;
+  background: linear-gradient(to bottom, #e82, #c60);
+  border-top: 1px solid #777;
+  border-left: 1px solid #777;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #555;
+  border-radius: 3px;
+}
+
+.navbar li.donate a:hover {
+  background: #f93;
+  background: linear-gradient(to top, #e82, #c60);
+}

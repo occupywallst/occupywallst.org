@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "About « Occupy Wall Street"
 lang: en
 ---
@@ -25,14 +25,13 @@ scrappy group of anarchists to take the initiative in organizing a
 ## Some Leaders of a Leaderless (and Leader-full) Movement
 
 OccupyWallSt.org is operated by The Occupy Solidarity Network, Inc. (OSN) a New
-York 501(c)(4) not-for-profit organization.
+York 501( c)(4) not-for-profit organization.
 
 The following three people make up our board of directors:
 
 ### Micah M. White, PhD
 
-<img alt="Photo of Micah White" src="//i.imgur.com/DL4cItOm.jpg"
-     style="float:right;margin-left:1em;margin-bottom:1em">
+<img alt="Photo of Micah White" src="/assets/img/micah.jpg" class="rfloat">
 
 Micah White is the American creator of the Occupy Wall Street meme. He has been
 profiled by [The New Yorker](pre-occupied), The Walrus and the alumni magazine
@@ -54,8 +53,7 @@ Solidarity Network, OccupyWallSt.org.
 
 ### Priscilla Grim
 
-<img alt="Photo of Priscilla Grim" src="//i.imgur.com/qAQHzSD.jpg"
-     style="float:right;margin-left:1em;margin-bottom:1em">
+<img alt="Photo of Priscilla Grim" src="/assets/img/priscilla.jpg" class="rfloat">
 
 Priscilla Grim works as a Content Cleric for Occupy, and is a Brooklyn mother,
 who has been miscredited with "secretly running the Occupy Movement out of her

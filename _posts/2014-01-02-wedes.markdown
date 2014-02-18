@@ -3,7 +3,8 @@ author: justine
 date: 2014-01-02T12:46:00-5000
 lang: en
 layout: post
-title: An Open Letter to Mister Justin Wedes
+title: Selfishness Letter to Mister Justin Wedes
+subtitle: The Great Commandment
 ---
 
 Dear Mr. Wedes---Do you remember how you said at my apartment the other day
