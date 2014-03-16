@@ -7,7 +7,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" type="image/png" href="/assets/img/bull.png">
-<link rel="canonical" href="{{ site.canonical }}{{ page.url }}">
+{% capture canonical %}{{ site.canonical }}{{ page.url }}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">
 <link rel="alternate" type="application/atom+xml" title="{{ site.name }}"
       href="/atom.xml">
 <title>{{ page.title }}</title>
@@ -61,5 +62,3 @@
     ♡ The Occupy Solidarity Network, Inc.
 </footer>
 {% include analytics.html %}
-{% include facebook.html %}
-{% include twitter.html %}

@@ -1,6 +1,28 @@
+<!--
+  -- OccupyWallSt.org Share Buttons
+  -- @author Justine Tunney <justine@occupywallst.org>
+  -- @see "https://dev.twitter.com/docs/tweet-button"
+  -->
+<head>
+  <link rel="stylesheet" href="/assets/css/share.css">
+  <script src="/assets/js/share.js"></script>
+</head>
 <div class="share">
-  <a href="https://twitter.com/share" class="twitter-share-button"
-     data-via="OccupyWallSt" data-hashtags="ows" data-dnt="true">Tweet</a>
-  <div class="fb-share-button" data-type="button_count"
-       data-href="{{ site.canonical }}{{ page.url }}"></div>
+  <a class="share-twitter"
+     href="https://twitter.com/share"
+     data-url="{{ site.canonical }}{{ page.url }}"
+     data-text="{{ page.title }}"
+     data-via="{{ site.twitter }}"
+     data-lang="{{ page.lang }}"
+     data-hashtags="{{ page.hashtags }}"
+     target="_blank">
+    Tweet
+    <span class="share-count">Ø</span>
+  </a>
+  <a class="share-facebook"
+     href="https://www.facebook.com/sharer/sharer.php?u={{ site.canonical | cgi_escape }}{{ page.url | cgi_escape }}"
+     target="_blank">
+    Share
+    <span class="share-count">Ø</span>
+  </a>
 </div>

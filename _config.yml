@@ -1,12 +1,12 @@
 analytics: UA-46982122-1
-author:
-  email: support@occupywallst.org
-  name: Occupy Wall Street
 canonical: http://canary.occupywallst.org
 disqus: occupywallst
+email: support@occupywallst.org
+googleplus: OccupyWallStreet
 host: www.occupywallst.org
 lang: en
 name: Occupy Wall Street
+twitter: OccupyWallSt
 
 # Jekyll Settings
 encoding: UTF-8

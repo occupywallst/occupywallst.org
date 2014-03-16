@@ -144,8 +144,7 @@ body > header {
   margin: 1em 0;
 }
 
-.share > * {
-  display: table-cell;
+.share a {
   float: right;
   margin-left: 1em;
 }
