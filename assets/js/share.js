@@ -7,20 +7,25 @@
  * @see "https://gist.github.com/jonathanmoore/2640302"
  */
 
+goog.provide('jart');
+goog.provide('jart.Share');
+
+goog.require('goog.dom');
+
 
 
 /**
  * Social media sharing button utilities.
  * @constructor
  */
-Share = function() {
+jart.Share = function() {
 
   /**
    * Canonical hyperlink of current page.
    * @type {!string}
    * @private
    */
-  this.canonical_ = Share.getCanonical_();
+  this.canonical_ = jart.Share.getCanonical_();
 };
 
 
@@ -28,21 +33,31 @@ Share = function() {
  * @type {string}
  * @private
  */
-Share.TWITTER_COUNT_API_ = '//urls.api.twitter.com/1/urls/count.json';
+jart.Share.TWITTER_COUNT_API_ =
+    '//urls.api.twitter.com/1/urls/count.json';
 
 
 /**
  * @type {string}
  * @private
  */
-Share.FACEBOOK_COUNT_API_ = '//graph.facebook.com';
+jart.Share.FACEBOOK_COUNT_API_ = '//graph.facebook.com';
+
+
+/**
+ * Initializes all share buttons found on current page.
+ */
+jart.Share.prototype.init = function() {
+  var buttons = goog.dom.getElementsByClass('share-button');
+  this.initButtons(buttons);
+};
 
 
 /**
  * Initializes share buttons.
  * @param {!Array.<!Element>} buttons Array of share buttons.
  */
-Share.prototype.initButtons = function(buttons) {
+jart.Share.prototype.initButtons = function(buttons) {
   for (var n = 0; n < buttons.length; n++) {
     this.initButton_(buttons[n]);
   }
@@ -54,8 +69,8 @@ Share.prototype.initButtons = function(buttons) {
  * @param {!Element} element DOM object with {@code href} attribute.
  * @private
  */
-Share.prototype.initButton_ = function(button) {
-  Share.fixLink_(button);
+jart.Share.prototype.initButton_ = function(button) {
+  jart.Share.fixLink_(button);
   if (button.classList.contains('share-facebook')) {
     this.fetchCountFacebook_(button);
   } else if (button.classList.contains('share-twitter')) {
@@ -69,12 +84,12 @@ Share.prototype.initButton_ = function(button) {
  * @param {!Element} element DOM element of Twitter share button.
  * @private
  */
-Share.prototype.fetchCountTwitter_ = function(button) {
+jart.Share.prototype.fetchCountTwitter_ = function(button) {
   var link = this.canonical_;
   var script = document.createElement('script');
   script.id = 'twitter' + parseInt(Math.random() * 10000);
-  script.src = Share.TWITTER_COUNT_API_ + '?' +
-      Share.encodeParams_({'url': link, 'callback': script.id});
+  script.src = jart.Share.TWITTER_COUNT_API_ + '?' +
+      jart.Share.encodeParams_({'url': link, 'callback': script.id});
   window[script.id] = function(json) {
     var count = button.querySelector('.share-count');
     count.innerText = json['count'];
@@ -90,11 +105,11 @@ Share.prototype.fetchCountTwitter_ = function(button) {
  * @param {!Element} element DOM element of Facebook share button.
  * @private
  */
-Share.prototype.fetchCountFacebook_ = function(button) {
+jart.Share.prototype.fetchCountFacebook_ = function(button) {
   var link = this.canonical_;
-  var url = Share.FACEBOOK_COUNT_API_ + '?' +
-      Share.encodeParams_({'ids': link});
-  Share.callJsonApi_(url, function(json) {
+  var url = jart.Share.FACEBOOK_COUNT_API_ + '?' +
+      jart.Share.encodeParams_({'ids': link});
+  jart.Share.callJsonApi_(url, function(json) {
     var count = button.querySelector('.share-count');
     count.innerText = json[link]['shares'];
   });
@@ -107,7 +122,7 @@ Share.prototype.fetchCountFacebook_ = function(button) {
  * @param {!Function(!Object)} callback Called with JSON result on success.
  * @private
  */
-Share.callJsonApi_ = function(url, callback) {
+jart.Share.callJsonApi_ = function(url, callback) {
   var req = new XMLHttpRequest();
   req.responseType = 'json';
   req.onreadystatechange = function() {
@@ -125,9 +140,9 @@ Share.callJsonApi_ = function(url, callback) {
  * @param {!Element} element DOM object with {@code href} attribute.
  * @private
  */
-Share.fixLink_ = function(element) {
+jart.Share.fixLink_ = function(element) {
   element.attributes.href.value += '?' +
-      Share.encodeParams_(element.dataset);
+      jart.Share.encodeParams_(element.dataset);
 };
 
 
@@ -136,7 +151,7 @@ Share.fixLink_ = function(element) {
  * @param {!Object.<string, string>} params Dictionary of keys and values.
  * @private
  */
-Share.encodeParams_ = function(params) {
+jart.Share.encodeParams_ = function(params) {
   var res = [];
   for (var key in params) {
     var value = params[key];
@@ -151,7 +166,7 @@ Share.encodeParams_ = function(params) {
  * @return {!string}
  * @private
  */
-Share.getCanonical_ = function() {
+jart.Share.getCanonical_ = function() {
   var canonical = document.querySelector('link[rel=canonical]');
   if (canonical) {
     return canonical.href;
@@ -161,10 +176,14 @@ Share.getCanonical_ = function() {
 };
 
 
-Share.main = function() {
-  var share = new Share();
-  share.initButtons(document.querySelectorAll('.share a'));
+/**
+ * Initializes share buttons for current page on load.
+ */
+jart.Share.main = function() {
+  window.addEventListener('load', function() {
+    new jart.Share().init();
+  });
 };
 
 
-window.addEventListener('load', Share.main);
+goog.exportSymbol('share', jart.Share.main);

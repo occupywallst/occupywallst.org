@@ -3,12 +3,8 @@
   -- @author Justine Tunney <justine@occupywallst.org>
   -- @see "https://dev.twitter.com/docs/tweet-button"
   -->
-<head>
-  <link rel="stylesheet" href="/assets/css/share.css">
-  <script src="/assets/js/share.js"></script>
-</head>
 <div class="share">
-  <a class="share-twitter"
+  <a class="share-button share-twitter"
      href="https://twitter.com/share"
      data-url="{{ site.canonical }}{{ page.url }}"
      data-text="{{ page.title }}"
@@ -19,7 +15,7 @@
     Tweet
     <span class="share-count">Ø</span>
   </a>
-  <a class="share-facebook"
+  <a class="share-button share-facebook"
      href="https://www.facebook.com/sharer/sharer.php?u={{ site.canonical | cgi_escape }}{{ page.url | cgi_escape }}"
      target="_blank">
     Share
