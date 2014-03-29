@@ -1,0 +1,32 @@
+--generate_exports
+--accept_const_keyword
+--output_wrapper (function(){%output%})();
+--compilation_level=ADVANCED_OPTIMIZATIONS
+--define=goog.DEBUG=false
+--use_types_for_optimization
+--create_source_map=assets/js/source.map
+--js=assets/closure-library/closure/goog/deps.js
+--warning_level verbose
+--jscomp_error accessControls
+--jscomp_error ambiguousFunctionDecl
+--jscomp_error checkDebuggerStatement
+--jscomp_error checkRegExp
+--jscomp_error checkTypes
+--jscomp_error checkVars
+--jscomp_error const
+--jscomp_error constantProperty
+--jscomp_error duplicate
+--jscomp_error es5Strict
+--jscomp_error externsValidation
+--jscomp_error fileoverviewTags
+--jscomp_error globalThis
+--jscomp_error invalidCasts
+--jscomp_error missingProperties
+--jscomp_error nonStandardJsDocs
+--jscomp_error strictModuleDepCheck
+--jscomp_error suspiciousCode
+--jscomp_error unknownDefines
+--jscomp_error uselessCode
+--jscomp_error visibility
+--jscomp_error checkStructDictInheritance
+--jscomp_warning deprecated

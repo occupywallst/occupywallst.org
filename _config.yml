@@ -1,5 +1,6 @@
 analytics: UA-46982122-1
 canonical: http://canary.occupywallst.org
+debug: false
 disqus: occupywallst
 email: support@occupywallst.org
 googleplus: OccupyWallStreet

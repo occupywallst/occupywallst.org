@@ -27,6 +27,13 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" href="/assets/css/navbar.css">
 <link rel="stylesheet" href="/assets/css/share.css">
+{% if site.debug %}
+  <script src="/assets/closure-library/closure/goog/base.js"></script>
+  <script src="/assets/js/deps.js"></script>
+  <script>goog.require('occu.share');</script>
+{% else %}
+  <script src="/assets/js/compiled.js"></script>
+{% endif %}
 <!--[if IE]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -62,7 +69,4 @@
     This site was brought to you by various radicals.<br>
     ♡ The Occupy Solidarity Network, Inc.
 </footer>
-<script src="/assets/closure-library/closure/goog/base.js"></script>
-<script src="/assets/js/share.js"></script>
-<script>share();</script>
 {% include analytics.html %}

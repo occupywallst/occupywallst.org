@@ -139,12 +139,12 @@ body > header {
   padding-left: 0.5em;
 }
 
-.share {
+.share-buttons {
   vertical-align: middle;
   margin: 1em 0;
 }
 
-.share a {
+.share-buttons a {
   float: right;
   margin-left: 1em;
 }
