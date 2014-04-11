@@ -27,6 +27,9 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" href="/assets/css/navbar.css">
 <link rel="stylesheet" href="/assets/css/share.css">
+<script>
+  window['GOOGLEPLUS_APIKEY'] = {{ site.googleplus_apikey | jsonify }};
+</script>
 {% if site.debug %}
   <script src="/assets/closure-library/closure/goog/base.js"></script>
   <script src="/assets/js/deps.js"></script>

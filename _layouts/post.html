@@ -15,10 +15,10 @@ layout: default
       {% if page.subtitle %}
         <h2>{{ page.subtitle }}</h2>
       {% endif %}
-      {% include share.html %}
       <h3><a href="{{ site.canonical }}{{ page.url }}">
           <time pubdate datetime="{{ page.date | date_to_xmlschema }}">
             {{ page.date | date:"%B %d, %Y" }}</time></a></h3>
+      {% include share.html %}
     </header>
     {{ content }}
     <footer class="right smallcaps pad">

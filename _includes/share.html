@@ -4,6 +4,10 @@
   -- @see "https://dev.twitter.com/docs/tweet-button"
   -->
 <div class="share-buttons">
+  <div class="g-plusone"
+       data-annotation="inline"
+       data-href="{{ site.canonical }}{{ page.url }}"
+       data-width="300"></div>
   <a class="share-button share-twitter"
      href="https://twitter.com/share"
      data-url="{{ site.canonical }}{{ page.url }}"
@@ -21,5 +25,13 @@
     Share
     <span class="share-count">Ø</span>
   </a>
+  <script>
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/platform.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+  </script>
 </div>
+<div style="clear:both"></div>
 <script>occu.share();</script>

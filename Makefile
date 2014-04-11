@@ -16,7 +16,7 @@ import:
 lint:
 	gjslint --strict -r assets/js/occu
 
-lint:
+fix:
 	fixjsstyle --strict -r assets/js/occu
 
 compile: lint
@@ -32,6 +32,8 @@ compile: lint
 		--output_file=assets/js/compiled.js \
 		--compiler_flags="--flagfile=assets/js/closure.flags"
 	sed -i -e 's/assets/\/assets/g' assets/js/source.map
+
+map: compile
 	echo '//@ sourceMappingURL=/assets/js/source.map' >>assets/js/compiled.js
 
 .PHONY: build import

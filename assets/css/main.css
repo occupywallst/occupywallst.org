@@ -142,11 +142,16 @@ body > header {
 .share-buttons {
   vertical-align: middle;
   margin: 1em 0;
+  height: 30px;
 }
 
 .share-buttons a {
   float: right;
   margin-left: 1em;
+}
+
+.share-buttons .g-plusone {
+  float: left;
 }
 
 .social ul {

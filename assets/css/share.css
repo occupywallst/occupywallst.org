@@ -28,15 +28,19 @@
   color: #393939;
 }
 
-.share-buttons .share-facebook {
+.share-facebook {
   background: url(/assets/img/facebook32.png);
 }
 
-.share-buttons .share-twitter {
+.share-twitter {
   background: url(/assets/img/twitter32.png);
 }
 
-.share-buttons .share-count {
+.share-googleplus {
+  background: url(/assets/img/googleplus32.png);
+}
+
+.share-count {
   display: inline-block;
   padding-left: 0.5em;
   margin-left: 0.3em;
